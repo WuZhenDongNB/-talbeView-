@@ -61,6 +61,7 @@
     }];
     //talbleView delegate代理;
     self.dataDelegate = [[ArrayDataDelegate alloc]initWithItems:self.dataArray andDelegate:self didSelecteIndexPathBlock:^(CellModel *model, NSIndexPath *indexPath) {
+        NSLog(@"cell被点击了");
     }];
     self.tableview.dataSource = self.dataSource;
     self.tableview.delegate = self.dataDelegate;
