@@ -15,6 +15,14 @@
 		B222E04321313ABC008921D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E04221313ABC008921D0 /* main.m */; };
 		B222E04D21313ABC008921D0 /* simpleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E04C21313ABC008921D0 /* simpleTableViewTests.m */; };
 		B222E05821313ABC008921D0 /* simpleTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E05721313ABC008921D0 /* simpleTableViewUITests.m */; };
+		B222E06B21313C08008921D0 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E06821313C08008921D0 /* CellModel.m */; };
+		B222E06C21313C08008921D0 /* SectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E06921313C08008921D0 /* SectionModel.m */; };
+		B222E07621313C38008921D0 /* tableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E06E21313C38008921D0 /* tableViewCell.m */; };
+		B222E07721313C38008921D0 /* ArrayDataDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E06F21313C38008921D0 /* ArrayDataDelegate.m */; };
+		B222E07821313C38008921D0 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E07021313C38008921D0 /* ArrayDataSource.m */; };
+		B222E07921313C38008921D0 /* tableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E07421313C38008921D0 /* tableViewHeaderView.m */; };
+		B222E07C21313DBF008921D0 /* myTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E07B21313DBF008921D0 /* myTableCell.m */; };
+		B222E07F21313E54008921D0 /* myModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B222E07E21313E54008921D0 /* myModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		B222E05321313ABC008921D0 /* simpleTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B222E05721313ABC008921D0 /* simpleTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleTableViewUITests.m; sourceTree = "<group>"; };
 		B222E05921313ABC008921D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B222E06721313C08008921D0 /* SectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionModel.h; sourceTree = "<group>"; };
+		B222E06821313C08008921D0 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		B222E06921313C08008921D0 /* SectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionModel.m; sourceTree = "<group>"; };
+		B222E06A21313C08008921D0 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		B222E06E21313C38008921D0 /* tableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewCell.m; sourceTree = "<group>"; };
+		B222E06F21313C38008921D0 /* ArrayDataDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataDelegate.m; sourceTree = "<group>"; };
+		B222E07021313C38008921D0 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		B222E07121313C38008921D0 /* tableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewHeaderView.h; sourceTree = "<group>"; };
+		B222E07221313C38008921D0 /* ArrayDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataDelegate.h; sourceTree = "<group>"; };
+		B222E07321313C38008921D0 /* tableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewCell.h; sourceTree = "<group>"; };
+		B222E07421313C38008921D0 /* tableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewHeaderView.m; sourceTree = "<group>"; };
+		B222E07521313C38008921D0 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		B222E07A21313DBF008921D0 /* myTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myTableCell.h; sourceTree = "<group>"; };
+		B222E07B21313DBF008921D0 /* myTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myTableCell.m; sourceTree = "<group>"; };
+		B222E07D21313E54008921D0 /* myModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myModel.h; sourceTree = "<group>"; };
+		B222E07E21313E54008921D0 /* myModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +125,15 @@
 		B222E03221313ABC008921D0 /* simpleTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B222E06521313BDD008921D0 /* tableData */,
 				B222E03321313ABC008921D0 /* AppDelegate.h */,
 				B222E03421313ABC008921D0 /* AppDelegate.m */,
 				B222E03621313ABC008921D0 /* ViewController.h */,
 				B222E03721313ABC008921D0 /* ViewController.m */,
+				B222E07A21313DBF008921D0 /* myTableCell.h */,
+				B222E07B21313DBF008921D0 /* myTableCell.m */,
+				B222E07D21313E54008921D0 /* myModel.h */,
+				B222E07E21313E54008921D0 /* myModel.m */,
 				B222E03921313ABC008921D0 /* Main.storyboard */,
 				B222E03C21313ABC008921D0 /* Assets.xcassets */,
 				B222E03E21313ABC008921D0 /* LaunchScreen.storyboard */,
@@ -130,6 +159,41 @@
 				B222E05921313ABC008921D0 /* Info.plist */,
 			);
 			path = simpleTableViewUITests;
+			sourceTree = "<group>";
+		};
+		B222E06521313BDD008921D0 /* tableData */ = {
+			isa = PBXGroup;
+			children = (
+				B222E06D21313C38008921D0 /* tableSource */,
+				B222E06621313C08008921D0 /* model */,
+			);
+			path = tableData;
+			sourceTree = "<group>";
+		};
+		B222E06621313C08008921D0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B222E06A21313C08008921D0 /* CellModel.h */,
+				B222E06821313C08008921D0 /* CellModel.m */,
+				B222E06721313C08008921D0 /* SectionModel.h */,
+				B222E06921313C08008921D0 /* SectionModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B222E06D21313C38008921D0 /* tableSource */ = {
+			isa = PBXGroup;
+			children = (
+				B222E06E21313C38008921D0 /* tableViewCell.m */,
+				B222E07321313C38008921D0 /* tableViewCell.h */,
+				B222E07221313C38008921D0 /* ArrayDataDelegate.h */,
+				B222E06F21313C38008921D0 /* ArrayDataDelegate.m */,
+				B222E07521313C38008921D0 /* ArrayDataSource.h */,
+				B222E07021313C38008921D0 /* ArrayDataSource.m */,
+				B222E07121313C38008921D0 /* tableViewHeaderView.h */,
+				B222E07421313C38008921D0 /* tableViewHeaderView.m */,
+			);
+			path = tableSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B222E06C21313C08008921D0 /* SectionModel.m in Sources */,
 				B222E03821313ABC008921D0 /* ViewController.m in Sources */,
+				B222E07921313C38008921D0 /* tableViewHeaderView.m in Sources */,
+				B222E07F21313E54008921D0 /* myModel.m in Sources */,
 				B222E04321313ABC008921D0 /* main.m in Sources */,
+				B222E07C21313DBF008921D0 /* myTableCell.m in Sources */,
 				B222E03521313ABC008921D0 /* AppDelegate.m in Sources */,
+				B222E07721313C38008921D0 /* ArrayDataDelegate.m in Sources */,
+				B222E06B21313C08008921D0 /* CellModel.m in Sources */,
+				B222E07821313C38008921D0 /* ArrayDataSource.m in Sources */,
+				B222E07621313C38008921D0 /* tableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
